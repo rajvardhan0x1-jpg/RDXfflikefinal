@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 # ✅ Valid API keys
 VALID_API_KEYS = {
-    "raj"  # don't change warna api or bot dono nhi chalega 
+    "UmFq"  # don't change warna api or bot dono nhi chalega 
 }
 
 # 🔢 Like limit tracking
@@ -231,8 +231,8 @@ def handle_requests():
                 ("status", status),
                 ("daily_limit", daily_limit),
                 ("used", used_count),
-                ("remaining", remaining),
-                ("credit", "Rajvardhan (@rajvardhan0x1)")
+                ("remaining", remaining)
+
                
             ])
 
